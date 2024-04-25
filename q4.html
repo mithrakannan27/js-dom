@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Question 4</title>
+</head>
+<body>
+    <h1 id="name">Name</h1>
+    <button id="j" onclick="update1()">John</button>
+    <button id="h" onclick="update2()"> Hari</button>
+    <button id="p" onclick="update3()">Praveen</button>
+
+    <script>
+        function update1(){
+            document.getElementById('name').textContent=document.getElementById('j').textContent
+        }
+        function update2(){
+            document.getElementById('name').textContent=document.getElementById('h').textContent
+        }
+        function update3(){
+            document.getElementById('name').textContent=document.getElementById('p').textContent
+        }
+
+    </script>
+</body>
+</html>
